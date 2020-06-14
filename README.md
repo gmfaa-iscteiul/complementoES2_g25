@@ -27,12 +27,17 @@ ATENÇÃO: NUMERO 1 -> os ficheiros geckodriver.exe e chromedriver.exe estão me
 
 
 
-#REQUISITO 4
+REQUISITO 4
+FUNCIONALIDADES: Site wordpres a funcionar com docker e aplicação funciona como pertendido, mostrando todas as tags e suas informações e uma hyperligação ao site pretendido pelo professor. Único requisito que não está funcional é correr o ficheiro executável do projeto recorrendo ao wordpress, isto é, se se correr o ficheiro bash “à mão”, funciona como pretendido, abrindo uma página html, mas se se correr o mesmo ficheiro bash pelo wordpress não funciona aparecendo o erro “error 500 - Internal Error”. Resumindo, o wordpress não consegue correr esse ficheio bash em especifico mas no site está um botão “Teste” que corre um ficheiro bash simple e funciona. Não conseguindo resolver este problema mas tendo as duas funcionalidades a funcionar, adicionamos as 2 em separado.
 
-FUNCIONALIDADES:
+INSTRUÇÕES: criar uma pasta e guardar dentro dessa pasta o ficheiro com a imagem pretendida a executar. Essa pasta será onde estará guardado o container com as informações todas dos jars, ficherios bash e toda a informação sobre o site e utilizadores. 
+Criar container com a imagem recebida e executar. A aplicação wrodpress será acedida pelo brower escrevendo: “192.168.99.100:80”, sendo estão o valor 80 o numero do port para aceder ao site wordpress.
+As credenciais para ter acesso ao site são:  
+-nome: jrcos                                 -senha: es2complemento
+Na página principal, encontram-se 3 botões. O botão “Complemento 4” (não funciona) corre o ficheiro bash que iria correr o jar (explicado anteriormente). O botão “Complemento 5” é exatamente igual ao botão 4 mas, em vez de correr o ficheiro bash correspondente ao complemento 4, corre o ficheiro bash do complemento 5 (Projeto da Beatriz Katzenstein). 
+O botão “teste serve só de exemplo de como a ligação wordpress-java funciona, apresentando uma página html exemplo.
+Para poder correr os ficheiros bash e ver as páginas html pretendidas de cada complemento, terá de executar os ficheiros à mão (enconram-se na pasta cgi-bin dentro da pasta onde está contido o container docker.
 
-
-INSTRUÇÕES:
 
 
 #REQUISITO 5
