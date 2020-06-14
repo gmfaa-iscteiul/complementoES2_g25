@@ -56,6 +56,7 @@ public class complementoTest {
 	public void test() throws InterruptedException, IOException {
 
 		try {
+			
 
 			System.setProperty("webdriver.gecko.driver", "C:/iscte/geckodriver.exe");
 			driver = new FirefoxDriver();
