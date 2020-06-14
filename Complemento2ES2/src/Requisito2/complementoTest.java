@@ -1,4 +1,5 @@
 package Requisito2;
+
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
@@ -56,7 +57,6 @@ public class complementoTest {
 	public void test() throws InterruptedException, IOException {
 
 		try {
-			
 
 			System.setProperty("webdriver.gecko.driver", "C:/iscte/geckodriver.exe");
 			driver = new FirefoxDriver();

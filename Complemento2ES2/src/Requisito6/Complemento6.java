@@ -108,6 +108,7 @@ public class Complemento6 {
 				writer.close();
 			}
 		}
+		
 		Desktop.getDesktop().browse(ficheiro.toURI());
 	
 	}
