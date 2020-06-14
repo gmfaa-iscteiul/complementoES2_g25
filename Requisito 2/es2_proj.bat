@@ -1,0 +1,1 @@
+"C:/Program Files/Java/jdk-12.0.1/bin/java" -jar "C:/iscte/complementoR2".jar
