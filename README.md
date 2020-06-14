@@ -42,10 +42,11 @@ Para poder correr os ficheiros bash e ver as páginas html pretendidas de cada c
 
 #REQUISITO 5
 
-FUNCIONALIDADES:
+FUNCIONALIDADES:Site WP a funcionar com docker(juntamente com o requisito4) e aplicação. As funcionalidades não foram todas implementadas, relativamente à alinea b). Foram criados botões para cada informação que o cliente pretenda visualizar. Os botões criados foram de visualização do número de testes, internamentos e infeções de cada região, da soma dos internamentos do algarve com o alentejo e da soma total de internamentos. Relativamente aos testes unitários também não foram realizados. Como o WP não consegue correr o ficheiro bash pretendido foi adicionado um botão "Teste" para comprovar que o WP consegue correr ficheiros bash, apesar de não conseguir correr os nossos.
 
+INSTRUÇÕES: Para correr a aplicação o cliente deve criar uma pasta e guardar o ficheiro com a imagem que pretende executar, nessa pasta está o container com os bash e jars. Ligar o docker para criar um container com a imagem que se pretende executar. Aceder ao WP com o link 192.168.99.100:80, autenticar o acesso ao site(nome:jrcos,senha es2complemento), como não conseguimos meter os botões a redirecionar para a página do complemento temos de correr o ficheiro bash cgi-java-bea.sh que se encontra na pasta C:\Utilizador\Utilizadores\docker\cgi-bin
 
-INSTRUÇÕES:
+NOTA:Ocorreu um problema que não permitiu utilizar o docker do meu computador, tentei ainda em dois outros computadores que tinha ca em casa, um Windows e um mac, mas sem sucesso, deste modo utilizei o docker do meu colega João.
 
 
 
