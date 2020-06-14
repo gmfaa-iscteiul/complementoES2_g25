@@ -12,9 +12,10 @@ Requisito 6 -> Miguel Clemente 82159
 #REQUISITO 1
 
 FUNCIONALIDADES:
+Foram implementados todos os pontos.
 
 INSTRUÇÕES:
-
+Entrar no link 192.168.99.100:8000 e fazer login como Administrador(user: administrador, pass: administrador), Member(user: member, pass: member) ou visitor(user: visitor, pass: visitor).
 
 #REQUISITO 2
 
