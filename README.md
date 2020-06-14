@@ -52,10 +52,13 @@ NOTA:Ocorreu um problema que não permitiu utilizar o docker do meu computador, 
 
 #REQUISITO 6
 
-FUNCIONALIDADES:
+FUNCIONALIDADES: O Site Wordpress está a funcionar com o docker, e a aplicação para mostrar os dois ficheiros com o highlight da diferença, está a funcionar parcialmente, isto é, apenas mostra um ficheiro RDF e numa caixa de texto, pois não consegui por o conteúdo a parecer diretamente na página como devia ser. Para correr o script, carregando no botão do complemento 6, dá erro, tem que se correr o jar diretamente na linha de comandos ou correr o script executável desse jar para fazer efeito e mostrar o conteúdo html pretendido na página. Experimentei correr o script diretamente no site do WordPress de outra aplicação de teste e funcionou bem, mas com a aplicação que é suposta, dá erro do tipo “Internal Server Error”. 
 
 
-INSTRUÇÕES:
+INSTRUÇÕES:Criar uma pasta e guardar dentro dessa pasta o ficheiro com a imagem pretendida a executar. Essa pasta é onde está guardado o container com a informação dos jars no cgi-bin, os scripts para executar os jars e outra informação relevante para o site, como credenciais do site e de utilizadores. Criar o container com a imagem recebida e de seguida executá-la. A aplicação do Wordpress pode ser acedida através do browser escrevendo 192.168.99.100:80. 
+Nome: mmfce
+Password: c!%dkbUOIPOajycIc2
+
 
 
 
