@@ -12,7 +12,7 @@ Requisito 6 -> Miguel Clemente 82159
 #REQUISITO 1
 
 FUNCIONALIDADES:
-Foram implementados todos os pontos.
+Foram implementados todos os pontos relativos ao wordpress. As partes dependentes dos outros requisitos não foram implementadas.
 
 INSTRUÇÕES:
 ->Instalar o docker
