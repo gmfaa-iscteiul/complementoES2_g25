@@ -16,14 +16,14 @@ Foram implementados todos os pontos.
 
 INSTRUÇÕES:
 
-.Instalar o docker
-.Correr o docker
-.Colar os ficheiros "docker-compose.yml" ,"Dockerfile" ,"mysql.rar" e "wordpress-with-java" na pasta pretendida
-.Escrever "cd (caminho até à pasta pretendida)"
-.Escrever "docker build -t wordpress-with-java:5.4.1 ."
-.Escrever "docker-compose up -d"
-.Escrever "docker load < wordpress-with-java"
-.Escrever "docker load < mysql"
+Instalar o docker
+Correr o docker
+Colar os ficheiros "docker-compose.yml" ,"Dockerfile" ,"mysql.rar" e "wordpress-with-java" na pasta pretendida
+Escrever "cd (caminho até à pasta pretendida)"
+Escrever "docker build -t wordpress-with-java:5.4.1 ."
+Escrever "docker-compose up -d"
+Escrever "docker load < wordpress-with-java"
+Escrever "docker load < mysql"
 
 
 Entrar no link 192.168.99.100:8000 e fazer login como Administrador(user: administrador, pass: administrador), Member(user: member, pass: member) ou visitor(user: visitor, pass: visitor).
