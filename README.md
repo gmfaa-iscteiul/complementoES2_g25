@@ -17,7 +17,7 @@ Foram implementados todos os pontos.
 INSTRUÇÕES:
 ->Instalar o docker
 ->Correr o docker
-->Colar os ficheiros "docker-compose.yml" ,"Dockerfile" ,"mysql.rar" e "wordpress-with-java" na pasta pretendida
+->Colar os ficheiros "docker-compose.yml" ,"Dockerfile" ,"mysql.rar" e "wordpress-with-java.rar" na pasta pretendida
 ->Escrever "cd (caminho até à pasta pretendida)"
 ->Escrever "docker build -t wordpress-with-java:5.4.1 ."
 ->Escrever "docker-compose up -d"
